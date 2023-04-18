@@ -1,0 +1,393 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+/* -----------TITLE--------------- */
+
+.title_flex {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 303px;
+}
+
+.titleH1 {
+    width: 315px;
+    margin-bottom: 76px;
+}
+
+.toTheStoreFlex {
+    display: flex;
+    height: 18px;
+    gap: 10px;
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out 0.1s;
+    margin-bottom: 34px;
+}
+
+.toTheStoreFlex:hover {
+    gap: 20px;
+    text-decoration: none;
+    color: #297a29;
+}
+
+.toTheStore {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.arrow {
+    margin-top: 5px;
+}
+
+/* -------------------------------------- */
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1440px;
+    padding-bottom: 40px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 824px;
+}
+
+.topLine {
+    margin: 3px 0 25px 30px;
+    width: 824px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #A7A7A7;
+}
+
+
+/* ------------Order details-------------- */
+
+.right {
+    position: relative;
+    top: -26px;
+    width: 496px;
+    height: 393px;
+    border: 2px solid black;
+    border-radius: 21px;
+}
+
+.titleOrder {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 21px;
+    margin-left: 25px;
+}
+
+.totalFlex {
+    display: flex;
+    margin-top: 47px;
+    align-items: center;
+    gap: 244px;
+}
+
+.total {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.summ {
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+}
+
+.dollarPriceBasket{
+    align-self: flex-end;
+    margin-bottom: 7px;
+}
+
+.form {
+    margin-top: 49px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form input {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 25px;
+    color: #929292;
+}
+
+.raz {
+    -moz-appearance: textfield;
+    width: 446px;
+    height: 73px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.raz::placeholder {
+    color: #929292;
+}
+
+.raz::-webkit-inner-spin-button {
+    display: none;
+}
+
+.order {
+    width: 446px;
+    height: 73px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 20px;
+    background-color: #339933;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+.order:hover {
+    font-size: 35px;
+    background-color: #f6ce49;
+    box-shadow: 1px 2px 5px #3e3412;
+}
+
+
+
+
+@media (max-width: 1430px) {
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .title_flex {
+        gap: 0;
+    }
+
+    .titleH1 {
+        width: 315px;
+        margin-bottom: 76px;
+    }
+
+    .toTheStoreFlex {
+        height: 10px;
+        gap: 10px;
+    }
+
+    .flex_container {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        width: 1440px;
+        padding-bottom: 40px;
+    }
+
+    .left {
+        gap: 0;
+        width: 533px;
+    }
+
+    .topLine {
+        margin: 3px 0 11px 14px;
+        width: 533px;
+    }
+
+    .right {
+        top: -12px;
+        width: 281px;
+        height: 318px;
+    }
+
+    .titleOrder {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 16px;
+        margin-left: 15px;
+    }
+
+    .totalFlex {
+        margin-top: 35px;
+        gap: 77px;
+    }
+
+    .total {
+        font-size: 24px;
+        font-weight: 500;
+        margin-left: 15px;
+    }
+
+    .summ {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .dollarPriceBasket{
+        align-self: flex-end;
+        margin-bottom: 5px;
+    }
+
+    .form {
+        margin-top: 57px;
+        gap: 25px;
+    }
+
+    .form input {
+        font-size: 18px;
+        padding-left: 25px;
+    }
+
+    .raz {
+        -moz-appearance: textfield;
+        width: 246px;
+        height: 53px;
+        border-radius: 13px;
+    }
+
+    .order {
+        width: 246px;
+        height: 53px;
+        border-radius: 13px;
+        font-size: 20px;
+    }
+
+    .order:hover {
+        font-size: 25px;
+    }
+
+}
+
+
+
+@media (max-width: 944px) {
+
+    .container {
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .title_flex {
+        max-width: 315px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .titleH1 {
+        width: 315px;
+        margin-bottom: 36px;
+    }
+
+    .toTheStoreFlex {
+        height: 10px;
+        gap: 10px;
+        margin: 0 auto;
+        margin-bottom: 34px;
+    }
+
+    .toTheStoreFlex:hover {
+        gap: 10px;
+    }
+
+    .toTheStore {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .flex_container {
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+        padding-bottom: 0;
+    }
+
+    .left {
+        gap: 0;
+        width: 360px;
+    }
+
+    .topLine {
+        margin: 3px 0 11px 31px;
+        width: 360px;
+    }
+
+    .right {
+        top: 50px;
+        width: 281px;
+        margin: 0 auto 50px auto;
+        height: 318px;
+
+    }
+
+    .titleOrder {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 16px;
+        margin-left: 67px;
+    }
+
+    .totalFlex {
+        margin-top: 35px;
+        gap: 77px;
+    }
+
+    .total {
+        font-size: 24px;
+        font-weight: 500;
+        margin-left: 15px;
+    }
+
+    .summ {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .form {
+        margin-top: 57px;
+        gap: 25px;
+    }
+
+    .form input {
+        font-size: 18px;
+        padding-left: 25px;
+    }
+
+    .raz {
+        -moz-appearance: textfield;
+        width: 246px;
+        height: 53px;
+        border-radius: 13px;
+    }
+
+    .order {
+        width: 246px;
+        height: 53px;
+        border-radius: 13px;
+        font-size: 20px;
+    }
+
+    .order:hover {
+        font-size: 25px;
+    }
+
+}

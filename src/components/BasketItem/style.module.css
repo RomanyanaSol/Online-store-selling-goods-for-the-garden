@@ -1,0 +1,305 @@
+.container {
+    display: flex;
+    max-width: 533px;
+    gap: 29px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.left {
+    max-width: 193px;
+    max-height: 167px;
+}
+
+.container img {
+    max-width: 193px;
+    height: 167px;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.line {
+    margin-top: 40px;
+    width: 824px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #A7A7A7;
+}
+
+.right {
+    display: flex;
+    gap: 24px;
+}
+
+.title_and_price {
+    max-height: 167px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    width: 318px;
+}
+
+.btns {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.btns p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.minus,
+.plus {
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+.plus:hover {
+    color: red;
+}
+
+.minus:hover {
+    color: blue;
+}
+
+.priceOnlyFlex{
+    display: flex;
+    align-items: baseline;
+    height: 127px;
+    margin-top: 51px;
+}
+
+.flex_price {
+    display: flex;
+    height: 52px;
+    gap: 70px;
+    margin-top: 32px;
+}
+
+.discont_price {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8B8B8B;
+    align-self: center;
+    text-decoration: line-through;
+}
+
+.priceFlex {
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
+}
+
+.priceFlexGrey{
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.dollarPrice{
+    color: #8B8B8B;
+}
+
+.x {
+    position: absolute;
+    right: -294px;
+    top: 2px;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+.x:hover {
+    color: red;
+}
+
+
+@media (max-width: 1430px) {
+
+    .container {
+        display: flex;
+        max-width: 533px;
+        gap: 0;
+        padding-top: 0;
+        /* margin-bottom: 9px; */
+    }
+    
+    .left {
+        max-width: 163px;
+    }
+    
+    .container img {
+        max-width: 143px;
+        object-fit: contain;
+    }
+    
+    .line {
+        margin-top: 20px;
+        width: 533px;
+    }
+    
+    .right {
+        gap: 0;
+    }
+    
+    .title_and_price {
+        margin-top: 18px;
+        max-height: 127px;
+    }
+    
+    .title {
+        font-size: 14px;
+        font-weight: 600;
+        width: 218px;
+    }
+    
+    .btns {
+        width: 100px; 
+        border-radius: 10px;
+    }
+    
+    .btns p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .priceOnlyFlex{
+        display: flex;
+        align-items: center;
+        height: 127px;
+        margin-top: 15px;
+    }
+
+    .flex_price {
+        display: flex;
+        height: 52px;
+        gap: 40px;
+        margin-top: 34px;
+    }
+    
+    .priceFlex {
+        display: flex;
+        align-items: center;
+        margin-top: 37px;
+    }
+    
+    .discont_price {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .price {
+        font-weight: 500;
+    }
+    
+    .x {
+        right: 0px;
+        top: 8px;
+    }
+    
+}
+
+
+@media (max-width: 944px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        gap: 0;
+        padding-top: 0;
+        /* margin-bottom: 9px; */
+    }
+    
+    .left {
+        max-width: 163px;
+        margin: 0 auto;
+    }
+    
+    .container img {
+        max-width: 143px;
+        object-fit: contain;
+    }
+    
+    .line {
+        display: none;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .title_and_price {
+        width: 360px;
+        margin-top: 14px;
+        max-height: 0;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .title {
+        font-size: 14px;
+        font-weight: 600;
+        width: 360px;
+        text-align: center;
+    }
+    
+    .btns {
+        width: 100px; 
+        border-radius: 10px;
+    }
+    
+    .btns p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .priceOnlyFlex{
+        display: flex;
+        justify-content: center;
+        height: 0;
+        margin-top: 40px;
+    }
+
+    .flex_price {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        gap: 40px;
+        margin-top: 5px;
+    }
+    
+    .priceFlex {
+        align-items: center;
+    }
+
+    
+    .x {
+        right: 0px;
+        top: 8px;
+    }
+    
+}

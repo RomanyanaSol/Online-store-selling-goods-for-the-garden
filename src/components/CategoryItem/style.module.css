@@ -1,0 +1,29 @@
+.item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.item img {
+    width: 355px;
+    height: 263px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.item img:hover  {
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.58);
+    transition: ease-in-out .2s;
+}
+
+.name {
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,91 @@
+.map {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 599px;
+}
+
+.map iframe {
+    margin: 30px auto 30px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: none;
+    box-shadow: 1px 1px 20px #00000043;
+    /* max-width: 1345px; */
+
+}
+
+
+
+@media (max-width: 1399px) {
+    .map iframe {
+        max-width: 1265px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .map iframe {
+        max-width: 1113px;
+    }
+}
+
+@media (max-width: 1324px) {
+    .map iframe {
+        max-width: 1082px;
+    }
+}
+
+@media (max-width: 1168px) {
+    .map iframe {
+        max-width: 935px;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .map {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 350px;
+    }
+
+    .map iframe {
+        margin: 0 auto;
+        max-width: 735px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 791px) {
+    .map iframe {
+        margin: 0 auto;
+        max-width: 635px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 685px) {
+    .map iframe {
+        max-width: 535px;
+    }
+}
+
+@media (max-width: 580px) {
+    .map iframe {
+        max-width: 435px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .map {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 270px;
+    }
+
+    .map iframe {
+        max-width: 400px;
+        max-height: 250px;
+    }
+}

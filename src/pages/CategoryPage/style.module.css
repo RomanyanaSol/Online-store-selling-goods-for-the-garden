@@ -1,0 +1,26 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.category_container{
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+    gap: 32px;
+}
+
+h1{
+    width: 230px;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 81px 31px;
+}
+
+
+@media (max-width: 944px) {
+
+    h1{
+        margin: 0 auto 77px auto ;
+    }
+}

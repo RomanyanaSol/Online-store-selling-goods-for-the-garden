@@ -1,0 +1,245 @@
+.product_title {
+    width: 670px;
+}
+
+.container {
+    max-width: 1321px;
+    margin: 0 auto;
+}
+
+.flex {
+    max-width: 1321px;
+    max-height: 717px;
+    display: flex;
+    gap: 128px;
+    margin: 0 auto;
+}
+
+.left_side img {
+    max-height: 710px;
+    width: 710px;
+    object-fit: contain;
+}
+
+
+/* -----------PRICE-BLOCK-------------- */
+
+
+.onlyPrice {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 44px;
+    display: flex;
+}
+
+.dollarOnlyPrice{
+    align-self: self-end;
+    margin-bottom: 6px;
+}
+
+.price_block {
+    margin: 64px 10px 0 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sign_price_flex {
+    display: flex;
+    gap: 6px;
+}
+
+.discont_price {
+    font-size: 70px;
+    font-weight: 600;
+    display: flex;
+}
+
+.dollarDiscontPrice{
+    margin-bottom: 16px;
+    align-self: flex-end;
+}
+
+.price {
+    width: 170px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #8B8B8B;
+    padding-bottom: 15px;
+    padding-left: 94px;
+    display: flex;
+}
+
+.dollarPrice{
+    align-self: self-end;
+    margin-bottom: 2px;
+}
+
+.percent {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FF32A1;
+    padding-bottom: 10px;
+    padding-left: 46px;
+}
+
+.btn {
+    margin-top: 25px;
+    width: 341px;
+    height: 86px;
+    background-color: #339933;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+.btn:hover {
+    background-color: #f6ce49;
+    box-shadow: 1px 2px 5px #3e3412;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+.line {
+    margin-top: 41px;
+    width: 422px;
+    border-bottom: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #C0C0C0;
+}
+
+.description_title {
+    margin: 26px 0 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.description_body {
+    max-width: 412px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+@media (max-width:1376px) {
+
+    .flex {
+        max-width: 1121px;
+        gap: 98px;
+    }
+
+    .product_title{
+        margin-bottom: 48px;
+    }
+
+    .left_side img {
+        margin-top: 15px;
+        max-height: 510px;
+        width: 510px;
+    }
+
+    .price_block {
+        margin: 0 0;
+    }
+}
+
+
+@media (max-width:1200px) {
+
+    .flex {
+        max-width: 910px;
+        gap: 78px;
+    }
+
+    .left_side img {
+        margin-top: 15px;
+        max-height: 410px;
+        width: 410px;
+    }
+
+    .price_block {
+        margin: 0 0;
+    }
+
+    .discont_price {
+        margin-top: 10px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .dollarDiscontPrice{
+        margin-bottom: 11px;
+        align-self: flex-end;
+    }
+    
+    .price {
+        width: 140px;
+        padding-bottom: 12px;
+        padding-left: 65px;
+    }
+    
+    .percent {
+        padding-bottom: 8px;
+        padding-left: 20px;
+    }
+    
+    .btn {
+        margin-top: 30px;
+        width: 241px;
+        height: 56px;
+        font-size: 24px;
+    }
+
+    .description_body {
+        max-width: 412px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width:944px) {
+
+    .product_title {
+        max-width: 370px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .flex {
+        max-width: 510px;
+        max-height: 905px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 38px;
+        margin: 0 auto;
+    }
+
+    .left_side img {
+        margin: 0 auto;
+        max-height: 350px;
+        width: 350px;
+    }
+
+    .right_side {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .price_block {
+        margin-left: 55px;
+    }
+   
+    .btn {
+        margin: 30px 0 0 25px;
+
+       
+    }
+}

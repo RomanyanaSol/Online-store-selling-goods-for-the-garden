@@ -1,0 +1,132 @@
+.style {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgba(254, 254, 254, 1) 0%, rgba(161, 226, 235, 1) 40%);
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+}
+
+.image {
+    width: 800px;
+    height: auto;
+    position: absolute;
+    top: 68px;
+    margin-right: 40px;
+    align-self: flex-end;
+    object-fit: cover;
+}
+
+.big {
+    margin: 130px 0 10px 50px;
+    color: #5e544b;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.medium {
+    margin-left: 50px;
+    color: #fe348a;
+    font-size: 63px;
+    font-weight: 700;
+}
+
+.style button {
+    width: 155px;
+    height: 82px;
+    margin: 60px 0 139px 51px;
+    background-color: white;
+    border-radius: 13px;
+    border: 1px solid #5e544b;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+    color:  #5e544b;
+}
+
+.style button:hover {
+    font-size: 30px;
+    font-weight: 800;
+    border: none;
+    background-color: #f6ce49;
+    box-shadow: 1px 2px 5px #3e3412;
+    color: #fff;
+}
+
+
+@media (max-width: 1330px) {
+
+    .image {
+        max-width: 600px;
+        height: auto;
+        position: absolute;
+        top: 150px;
+        margin-right: 40px;
+        align-self: flex-end;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width: 1170px) {
+
+    .image {
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 684px) {
+
+    .style {     
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .big {
+        margin: 130px 0 10px 10px;
+        text-align: center;
+        color: white;
+        font-size: 80px;
+        font-weight: 700;
+        color: #5e544b;
+    }
+
+    .medium {
+        margin-left: 0;
+        text-align: center;
+        color: white;
+        font-size: 63px;
+        font-weight: 700;
+        color: #fe348a;
+    }
+
+    .smallBtn{
+        display: flex;
+        align-items: center;
+    }
+
+    .style button {
+        max-width: 155px;
+        height: 82px;
+        margin: 50px 20px;
+        margin-bottom: 100px;
+        background-color: white;
+        border-radius: 13px;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 700;
+        cursor: pointer;
+        color:  #5e544b;
+    }
+
+
+    .style a {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,27 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.product_container{
+    padding-bottom: 50px;
+    margin:0 39px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 34px;
+}
+
+.h1{
+    width: 268px;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 81px 31px;
+}
+
+
+@media (max-width: 728px) {
+
+    .h1{
+        margin: 0 auto 77px;
+    }
+}
