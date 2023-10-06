@@ -8,14 +8,16 @@ In the project directory, you can run:
 
 ### `npm start`
 
-This Front-End has a separate Back-End
+This Front-End has a separate Back-End:
+https://github.com/HaykInanc/telran_project_backend
+
+Сopy the project from the repository via the link and run it using the following commands:
+### `npm i`
+
+### `npm run dev`
 
 
 
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## About The Project
 
