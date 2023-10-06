@@ -21,10 +21,17 @@ https://github.com/HaykInanc/telran_project_backend
 
 ## About The Project
 
-- 3D gallery for the site    
-- Allows you to scroll through images smoothly     
+- online-store has categories and basket
+- there is a search on the site:  
+  - price "from-to"  
+  - discounted goods
+- sorted by:  
+  - price  
+  - discount price  
+  - title  
+- basket
 - The site adjusts to screen sizes    
-- Implemented audio by clicking on the icon
+
 
 ## Demo
 
