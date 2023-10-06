@@ -1,5 +1,12 @@
 # Online Store
 
+## Demo
+
+<p align="center">
+<img src="https://github.com/RomanyanaSol/Online-store-selling-goods-for-the-garden/blob/main/Garden%20demo.gif" >
+</p>
+
+
 ## Start Project
 
 In the project directory, you can run:
@@ -31,11 +38,6 @@ https://github.com/HaykInanc/telran_project_backend
 - The site adjusts to screen sizes    
 
 
-## Demo
-
-<p align="center">
-<img src="https://github.com/RomanyanaSol/Beauty-3D-scroll-animation/blob/main/3d%20scroll2.gif" width='650'>
-</p>
 
 ## Built With
 
