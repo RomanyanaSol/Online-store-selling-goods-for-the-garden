@@ -6,9 +6,6 @@
 <img src="https://github.com/RomanyanaSol/Online-store-selling-goods-for-the-garden/blob/main/Garden%20demo.gif" >
 </p>
 
-<p align="center">
-<img src="https://github.com/RomanyanaSol/Online-store-selling-goods-for-the-garden/blob/main/Responsive%20Design.gif" >
-</p>
 
 ## Start Project
 
@@ -38,28 +35,23 @@ https://github.com/HaykInanc/telran_project_backend
   - discount price  
   - title  
 - basket
-- The site adjusts to screen sizes    
+- responsive design
+
+<p align="center">
+<img src="https://github.com/RomanyanaSol/Online-store-selling-goods-for-the-garden/blob/main/Responsive%20Design.gif" >
+</p>
 
 
 
 ## Built With
 
-<img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg' width="46" height="46" alt="HTML"/> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg' width="46" height="46" alt="CSS" /> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' width="46" height="46" alt="CSS" />
+<img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg' width="46" height="46" alt="HTML"/> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg' width="46" height="46" alt="CSS" /> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' width="46" height="46" alt="CSS" /> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg' width="46" height="46" alt="CSS" />
 
-## Code Example
+- React Router
+- Fetch
+- React Hooks
+- React Redux
+- React Thunk
 
-Sound by click.  
-Sound automatically turns off when changing browser tabs.
 
-<p align="center">
-<img src="https://github.com/RomanyanaSol/Beauty-3D-scroll-animation/blob/main/Demo%20sound%20on.jpg">
-</p>
-
-<p align="center">
- JavaScript Demo
-</p>
-
-<p align="center">
-<img src="https://github.com/RomanyanaSol/Beauty-3D-scroll-animation/blob/main/JS%20Sound%20demo.jpg">
-</p>
 
