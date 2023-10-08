@@ -6,6 +6,9 @@
 <img src="https://github.com/RomanyanaSol/Online-store-selling-goods-for-the-garden/blob/main/Garden%20demo.gif" >
 </p>
 
+<p align="center">
+<img src="https://github.com/RomanyanaSol/Online-store-selling-goods-for-the-garden/blob/main/Responsive%20Design.gif" >
+</p>
 
 ## Start Project
 
